@@ -6,3 +6,7 @@ D:\SITES E PROJETOS\C#\04 CLASSES E DLLS\SOURCE\GetPublicIP\bin\Release\GetPubli
 D:\SITES E PROJETOS\C#\04 CLASSES E DLLS\SOURCE\GetPublicIP\bin\Release\GetPublicIP.pdb
 D:\SITES E PROJETOS\C#\04 CLASSES E DLLS\SOURCE\GetPublicIP\obj\Release\GetPublicIP.dll
 D:\SITES E PROJETOS\C#\04 CLASSES E DLLS\SOURCE\GetPublicIP\obj\Release\GetPublicIP.pdb
+C:\Users\lucas\Documents\GitHub\GetPublicIP\GetPublicIP\bin\Release\GetPublicIP.dll
+C:\Users\lucas\Documents\GitHub\GetPublicIP\GetPublicIP\bin\Release\GetPublicIP.pdb
+C:\Users\lucas\Documents\GitHub\GetPublicIP\GetPublicIP\obj\Release\GetPublicIP.dll
+C:\Users\lucas\Documents\GitHub\GetPublicIP\GetPublicIP\obj\Release\GetPublicIP.pdb
