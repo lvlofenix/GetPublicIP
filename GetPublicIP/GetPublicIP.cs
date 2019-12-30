@@ -10,19 +10,23 @@ namespace GetPublicIP
         {
             try
             {
-                String publicIP = String.Empty;
+                int ini, fim;
+                string publicIP = string.Empty;
                 WebRequest request = WebRequest.Create(@"http://checkip.dyndns.org");
+
                 using (WebResponse response = request.GetResponse())
                 using (StreamReader stream = new StreamReader(response.GetResponseStream()))
                 { publicIP = stream.ReadToEnd();}
-                int ini = publicIP.IndexOf("Address: ") + 9;
-                int fim = publicIP.LastIndexOf("</body>");
-                publicIP = publicIP.Substring(ini, fim - ini);
-                return publicIP;
+
+                ini = publicIP.IndexOf("Address: ") + 9;
+                fim = publicIP.LastIndexOf("</body>");
+
+                return publicIP.Substring(ini, fim - ini);
             }
-            catch
+            catch(Exception err)
             {
-                return "404";
+                Console.WriteLine(err.Message);
+                return null;
             }
         }
     }
